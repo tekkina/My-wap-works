@@ -106,13 +106,14 @@ font-size:30px;}
 li a {display:block;
 padding:5px 20px;
 text-decoration:none;
-text-align:right;
+text-align:left;
 
 
 }
 
 li a:hover{background-color:aqua;
 color:brown;
+text-decoration:underline;
 }
 * {
 box-sizing: border-box;
@@ -175,6 +176,27 @@ left:250px;
 .tooltip:hover .tooltiptext {
 visibility: visible;
 }
+
+.extra::first-line{color:crimson;
+font-variant:small-caps;
+}
+.extra-1{float: left;
+line-height: 60%;
+width: 1em;
+font-size: 250%;
+font-family:Arial, sans-serif;
+}
+.extra-2{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+.extra-3{
+    display:inline-block;
+    transform: scale(-1, 1);
+color:blue;
+}
+
 footer{
 background-color: purple;
 color:white;
@@ -266,6 +288,18 @@ border-radius: 20px;
     <li>Meron will not talk to people for weeks when <em>she is mad.</em></li>
     <li>Sherif yells when he is <strong>stressed</strong> specially at <em>exam week.</em></li>
 </ul>
+<div><h2>additional extra point works</h2>
+<ol>
+    <li> Drop-Caps
+        <ul class="extra-2">
+            <li><p><span class="extra-1">T</span>he legends of our ancestores are hard to beleive, still hard to ignore.
+            Can you pause for a moment and think some of the legendary stories you grow up hearing.</p></li>
+               
+        </ul>
+    </li>
+    <li> Text Transformation with out the need of using javascript
+    <li class="extra-3"> I love coding! </li></li>
+</ul></div>
     <footer>
     <div class="column-2"><pre> 
     Tekeste Teklehaimanot 
