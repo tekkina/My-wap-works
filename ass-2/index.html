@@ -8,7 +8,7 @@
     <style>
         .img-round{border-radius:50%}
         
-        html,body{
+        body{
             background-color: cadetblue;
          margin:30px;
          padding:0;
@@ -62,9 +62,13 @@ font-size:30px;}
            width: max-content;
           padding:0;
            margin:0 40px; 
-           color: yellow;
+           color: rgb(149, 244, 6);
         }
-       
+       .text a{
+        font-size:20px;
+           font-weight:bold;
+           color:rgb(149, 244, 6);
+       }
         
      .books{
         border:10px solid black;
@@ -130,36 +134,59 @@ padding:60px;background-color:cornflowerblue;
 margin:0;
 
 }
-/* .column-2{ 
-    border:2px solid red;
+.column-2{ 
     position:relative;
 float:left;
-width:fit-content;
-padding:60px;background-color:cornflowerblue;
-margin:0;vertical-align: baseline;
-resize:both;
-} */
+width:auto;
+padding:10px;
+margin:0;
+vertical-align: baseline;
+
+} 
 
 .text h4{
     position:absolute;
    float:right;
 }
- 
-.overlay {
-  position: absolute; 
-  bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1; 
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
+.subtitle{
+    margin:10px;
+    color:rgb(149, 244, 6); 
+    font-size:25px;
+    font-weight:bold;
+    text-underline-offset:0.2em;   
 }
-.row:hover.overlay{opacity:1} 
+.tooltip {
+  position: relative;
+  display:inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: rgb(240, 186, 9);
+  color: black;
+  text-align: center;
+  border-radius: 60%;
+  padding: 10px;
+  position: absolute;
+  top:35px;
+  left:250px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+footer{
+    background-color: purple;
+    border-radius: 30px;
+    color:white;
+    text-align: left;
+    font-size:15px;
+    margin:0;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 150px;
+   width:100%;
+}
     </style>
 
 </head>
@@ -171,7 +198,7 @@ resize:both;
     <h2> A little about me</h2>
     <p>Hey, I am <b style= color:rgb(21,5,241);> Tekeste Teklehaimanot </b>, I am single, I have wondered a lot of countries in six continents, I am an experienced 
         Mecahnical and Marine engineer subspecialized on PLC programming and a potential future excellent software engineer. Presently, studing my Software Engineering Msc program in MIU, fairfield,Iowa,UnitedStates.</p>
-        <p style =font-size:2rem;><u>Registerd Courses</u></p>
+        <p style =font-size:2rem;text-underline-offset:0.2em><u>Registerd Courses</u></p>
         <ul class="ul-course"> 
             <li><a>WAP</a></li>
             <li><a>Enterprise Architecture</a></li>
@@ -187,16 +214,17 @@ resize:both;
         <ul class="hobby">
             <li style=list-style-type:none><h2>My Hobbies</h2>
         <ol>
-            <li > Watching Movies</li>
-            <ul class="movies" class="li-books">
-                <li style="margin:10px;color:rgb(149, 244, 6); font-weight:bold">some of my Favorite movies
-                    <ul class="inside-movies">
-                        <li><a href = "https://www.netflix.com/search?q=gladiator&jbv=60000929"><b style="color:rgb(149, 244, 6)">Gladiator</b></a></li>
-                        <li><a href = "https://www.netflix.com/browse?jbv=81513703"><b style>The Bad Guys</b></a></li>
-                        <li><a href = "https://www.netflix.com/title/70120612"><b>MegaMind</b></a></li>   
+            <li > Watching Movies
+            <ul class="movies">
+                <li class="subtitle tooltip"><u style="  text-decoration-color:red;">Some of my favorite movies<span class="tooltiptext">click the list to watch</span></u>
+                    <ul class="inside-movies text">
+                        <li><a href = "https://www.netflix.com/search?q=gladiator&jbv=60000929">Gladiator</a></li>
+                        <li><a href = "https://www.netflix.com/browse?jbv=81513703">The Bad Guys</a></li>
+                        <li><a href = "https://www.netflix.com/title/70120612">MegaMind</a></li>
                     </ul>
                 </li>
             </ul>
+            </li>
             <li>Reading fiction books
                <ul class="books"> </ul>
             </li>
@@ -232,9 +260,28 @@ resize:both;
 
 <ul style=border:none;clear:both;padding-top:20px;padding-left:0;>
     
-    <h2>Fun Facts About My neighbors</h2>
+    <li style="list-style-type:none"><h2>Fun Facts About My neighbors</h2></li>
     <li>Alexander Lomez: he always sings in the shower.</li>
     <li>Hasiet Mulugeta: She likes to talk with her parakeets <em>Zema </em>and <em>zeip</em></li>
+    <li>Meron will not talk to people for weeks when <em>she is mad.</em></li>
+    <li>Sherif yells when he is <strong>stressed</strong> specially at <em>exam week.</em></li>
 </ul>
+    <footer>
+    <div class="column-2"><pre> 
+    Tekeste Teklehaimanot 
+    Maharashi International University
+    Department of computer science
+    Tel: 545-656-5432
+    Adresee: 1000 North 4th street
+    <a href ="mailto:tteklehaimanot@miu.edu"><b style="color:yellow">tteklehaimanot@miu.edu</a></pre></div>
+    <div class=column-2>
+    <a href="https://validator.w3.org/check?url=https://tekkina.github.io/index.html" style="text-decoration:none;">
+       <div><img src="https://t3.ftcdn.net/jpg/03/56/85/48/240_F_356854808_3YAqDSXvVAchX3Cxx8ds5emPx7D2cCwW.jpg" alt= "html validator" style=width:53%>
+    </div>
+    </a>
+        </div>
+    </div>
+    </div> 
+    </footer>
 </body>
 </html>
