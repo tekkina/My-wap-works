@@ -180,6 +180,10 @@ visibility: visible;
 .extra::first-line{color:crimson;
 font-variant:small-caps;
 }
+.descending{transform: rotate(180deg);
+
+}
+.descending li{transform:rotate(-180deg);}
 .extra-1{float: left;
 line-height: 60%;
 width: 1em;
@@ -205,6 +209,39 @@ margin:0 auto;
 padding-bottom: 150px;
 padding-top: 10px;
 border-radius: 20px;
+}
+.animate-charcter{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    200deg,
+    green 10%,
+    yellow 20%,
+    purple 25%,
+    #231557 30%,
+    #44107a 40%,
+    red 50%,
+    orange 60%,
+    #ff1361 67%,
+    pink 80%,
+    violet 90%,
+    #fff800 95%,
+    black 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 110px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 </style>
 </head>
@@ -288,7 +325,7 @@ border-radius: 20px;
     <li>Meron will not talk to people for weeks when <em>she is mad.</em></li>
     <li>Sherif yells when he is <strong>stressed</strong> specially at <em>exam week.</em></li>
 </ul>
-<div><h2>additional extra point works</h2>
+<div><h3>additional extra point works</h3>
 <ol>
     <li> Drop-Caps
         <ul class="extra-2">
@@ -296,9 +333,31 @@ border-radius: 20px;
             Can you pause for a moment and think some of the legendary stories you grow up hearing.</p></li>
                
         </ul></li>
-    <li> Text Transformation with out the need of using javascript
-    <li class="extra-3"> I love coding! </li>
-    </ol></div>
+    <li> Text Transformation, reversing text up-side down.
+    <li class="extra-3"> I love coding! </li></li>
+    
+        <li> Reversing a list, taking the above existing movie frame list html-css code
+        <ul class="movies">
+            <li class="subtitle tooltip"><u style="  text-decoration-color:red;">Some of my favorite movies<span class="tooltiptext">click the list to watch</span></u>
+                <ul class="inside-movies text descending">
+                    <li><a href = "https://www.netflix.com/search?q=gladiator&jbv=60000929">Gladiator</a></li>
+                    <li><a href = "https://www.netflix.com/browse?jbv=81513703">The Bad Guys</a></li>
+                    <li><a href = "https://www.netflix.com/title/70120612">MegaMind</a></li>
+                </ul>
+            </li>
+        </ul>
+        </li>
+        </ol>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h3 class="animate-charcter"> CODING IS AWOESOME!!</h3>
+              </div>
+            </div>
+          </div>
+
+
     <footer>
     <div class="column-2"><pre> 
     Tekeste Teklehaimanot 
