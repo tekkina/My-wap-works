@@ -1,0 +1,178 @@
+        .img-round{border-radius:50%}
+        
+        body{
+            background-color: cadetblue;
+         margin:30px;
+         padding:0;
+         height:100%;
+        }
+       
+    h1,h2,h3{
+        display:block;
+        margin-left: 30px;;
+        padding: 10px 10px;
+        color:yellow;
+         background-color:black;
+         width:max-content;
+        border-radius: 1px;
+        border: 4px solid rgb(241, 182, 6);
+    
+        }
+        .hobby{
+        background-color: darkseagreen;
+        border:none;
+        width:100%;
+        padding:0;
+       
+       
+    }
+        ol{
+font-size:30px;}
+
+        .ul-course{ border:5px solid;
+            list-style-type:none;
+            background-color:green;
+           width: max-content;
+          padding:0;
+           margin: 30px;    
+        }
+        
+        .movies{border:10px solid brown;
+            border-radius: 20px;
+            list-style-type:none;
+           background-image:url(https://media.istockphoto.com/id/1340577488/photo/girl-enjoying-watching-a-nice-movie-at-the-cinema.jpg?b=1&s=170667a&w=0&k=20&c=nTxetqtXrl-mlOgG6Fgtpgd_8JbogYRp5F2TXZNmkkE=);
+          width:600px;
+          height:300px;
+           padding:0;
+           margin:20px; 
+           font-size:20px;
+        
+     }
+     .inside-movies{border:none;
+            list-style-type:lower-roman;
+            background-color:transparent;
+           width: max-content;
+          padding:0;
+           margin:0 40px; 
+           color: rgb(149, 244, 6);
+        }
+       .text a{
+        font-size:20px;
+           font-weight:bold;
+           color:rgb(149, 244, 6);
+       }
+        
+     .books{
+        border:10px solid black;
+        border-radius:20px;
+        list-style-type:none;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/54d8f3b4e4b04def03ef0878/1556104982134-6LUAOFH4OSYW1XBAAKVA/library%2520books.jpg);
+        width:600px;
+        height:300px;
+        padding:0;
+        margin:20px;
+       
+        
+     }
+     .outside-books {border:none;
+            list-style-type:lower-roman;
+            background-color:transparent;
+           width: max-content;
+          padding:0;
+           margin:0 40px; 
+           font-size:20px;
+          
+        }
+     
+        .pingpong{border:10px solid brown;
+            border-radius: 20px;
+            list-style-type:none;
+           background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtLRIXMreTXoYg30su2Ra6ANLnZqSLPfbCRw&usqp=CAU);
+          width:600px;
+          height:300px;
+           padding:0;
+           margin:20px; 
+           font-size:20px;}
+        
+        
+li a {display:block;
+    padding:5px 20px;
+    text-decoration:none;
+    text-align:right;
+   
+
+}
+
+li a:hover{background-color:aqua;
+color:brown;
+}
+* {
+  box-sizing: border-box;
+}
+.row{
+position:relative;
+width:100%;
+margin:0;
+padding:0;
+display:inline;
+}
+
+.column-1{ 
+    border:2px solid green;
+    position: relative;
+float:left;
+width:fit-content;
+padding:60px;background-color:cornflowerblue;
+margin:0;
+
+}
+.column-2{ 
+    position:relative;
+float:left;
+width:auto;
+padding:10px;
+margin:0;
+vertical-align: baseline;
+
+} 
+
+.text h4{
+    position:absolute;
+   float:right;
+}
+.subtitle{
+    margin:10px;
+    color:rgb(149, 244, 6); 
+    font-size:25px;
+    font-weight:bold;
+    text-underline-offset:0.2em;   
+}
+.tooltip {
+  position: relative;
+  display:inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: rgb(240, 186, 9);
+  color: black;
+  text-align: center;
+  border-radius: 60%;
+  padding: 10px;
+  position: absolute;
+  top:35px;
+  left:250px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+footer{
+    background-color: purple;
+    color:white;
+    text-align: left;
+    margin:0 auto;
+    padding-bottom: 150px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
