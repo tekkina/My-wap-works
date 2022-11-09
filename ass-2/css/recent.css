@@ -238,15 +238,6 @@ transform: scale(-1, 1);
 color:blue;
 }
 
-footer{
-background-color: purple;
-color:white;
-text-align: left;
-margin:0;
-padding-bottom: 200px;
-padding-top: 10px;
-border-radius: 20px;
-}
 /* I just put as many coloras bellow, just a  demonstration purpose.  */
 .animate-charcter{
 text-transform: uppercase;
@@ -283,3 +274,40 @@ background-color:black;
 text-decoration:none;
 padding:0 10px;
 }
+footer{
+    background-color: purple;
+    color:white;
+    text-align: left;
+    margin:0;
+    padding-bottom: 200px;
+    padding-top: 10px;
+    border-radius: 20px;
+    }
+footer a {
+    display: inline;
+    margin-right: 10px;
+    width: 50px;
+    padding: 1px;
+    font-size: 9px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid yellow;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+}
+footer a strong {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #912;
+    padding-left: 2px;
+    margin-right: 5px;
+}
+footer a:hover {
+    color: #FFF;
+    background-color: #912;
+}
+footer a:hover strong {
+    color: #912;
+    background-color: #DDD;
+}  
