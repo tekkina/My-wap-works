@@ -24,17 +24,17 @@ h1,h2,h3{
      width:max-content;
     border-radius: 1px;
     border: 4px solid rgb(241, 182, 6);
-
     }
     .hobby{
     background-color: darkseagreen;
     border:none;
     width:100%;
     padding:0;
+   
+   
 }
     ol{
 font-size:30px;}
-
     .ul-course{ border:5px solid;
         list-style-type:none;
         background-color:green;
@@ -76,7 +76,9 @@ font-size:30px;}
     width:600px;
     height:300px;
     padding:0;
-    margin:20px; 
+    margin:20px;
+   
+    
  }
  .outside-books {border:none;
         list-style-type:lower-roman;
@@ -96,16 +98,14 @@ font-size:30px;}
       height:300px;
        padding:0;
        margin:20px; 
-       font-size:20px;
-    }  
+       font-size:20px;}
+    
+    
 li a {display:block;
 padding:5px 20px;
 text-decoration:none;
 text-align:left;
-
-
 }
-
 li a:hover{background-color:aqua;
 color:brown;
 text-decoration:underline;
@@ -120,15 +120,13 @@ margin:0;
 padding:0;
 display:inline;
 }
-
 .column-1{ 
 border:2px solid green;
 position: relative;
 float:left;
-width:auto;
+width:fit-content;
 padding:60px;background-color:cornflowerblue;
 margin:0;
-
 }
 .column-2{ 
 position:relative;
@@ -137,9 +135,7 @@ width:auto;
 padding:10px;
 margin:0;
 vertical-align: baseline;
-
 } 
-
 .text h4{
 position:absolute;
 float:right;
@@ -149,7 +145,7 @@ margin:10px;
 color:rgb(149, 244, 6); 
 font-size:25px;
 font-weight:bold;
-text-underline-offset: 0.2em; 
+text-underline-offset:0.2em;   
 }
 .tooltip {
 position: relative;
@@ -167,18 +163,12 @@ position: absolute;
 top:35px;
 left:250px;
 }
-
 .tooltip:hover .tooltiptext {
 visibility: visible;
 }
-
 .extra::first-line{color:crimson;
 font-variant:small-caps;
 }
-.descending{transform: rotate(180deg);
-
-}
-.descending li{transform:rotate(-180deg);}
 .extra-1{float: left;
 line-height: 60%;
 width: 1em;
@@ -195,7 +185,6 @@ font-family:Arial, sans-serif;
     transform: scale(-1, 1);
 color:blue;
 }
-
 footer{
 background-color: purple;
 color:white;
@@ -205,41 +194,12 @@ padding-bottom: 150px;
 padding-top: 10px;
 border-radius: 20px;
 }
-.animate-charcter{
-    text-transform: uppercase;
-    background-image: linear-gradient(
-    -225deg,
-    green 10%,
-    yellow 20%,
-    purple 25%,
-    #231557 30%,
-    #44107a 40%,
-    );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 5s linear infinite;
-  display: inline-block;
-      font-size: 110px;
-   
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  
-  }
-}
 </style>
 </head>
 <body>
-    <header ><h1 style="text-align:center;"><a href="https://validator.w3.org/check?url=https://tekkina.github.io/my-wap-works/ass-2/index.html">
+    <header style= text-align:center;><a href="https://validator.w3.org/check?url=https://tekkina.github.io/my-wap-works/ass-2/here.html">
         <img class="img-round" src="https://tekkina.github.io/my-wap-works/ass-2/20150305_000449%20copy.jpg"
-        alt= "html validator" height ="300" width ="350"></a></h1></header>
+        alt= "html validator" height ="300" width ="350"></a></header>
   <h1 style=margin:auto;> Tekeste Teklehaimanot </h1>
     <h2> A little about me</h2>
     <p>Hey, I am <b style= color:rgb(21,5,241);> Tekeste Teklehaimanot </b>, I am single, I have wondered a lot of countries in six continents, I am an experienced 
@@ -258,7 +218,7 @@ border-radius: 20px;
         
        
         <ul class="hobby">
-            <li><h2>My Hobbies</h2>
+            <li style=list-style-type:none><h2>My Hobbies</h2>
         <ol>
             <li > Watching Movies
             <ul class="movies">
@@ -291,7 +251,6 @@ border-radius: 20px;
     </li>
     </ul>
     <h2>My Moods</h2>
-
 <div class="row">
  
         <div class="column-1">
@@ -307,7 +266,6 @@ border-radius: 20px;
     <img src="https://img.freepik.com/free-photo/bored-annoyed-african-american-male-student-guy-roll-his-eyes-staring-with-empty-spaced-out-face-upper-left-corner-attend-annoying-boring-meeting-white_176420-39743.jpg?w=2000" alt="my sad mood" style="width:500px;height:400px;">
 </div>
 </div>
-
 <ul style=border:none;clear:both;padding-top:20px;padding-left:0;>
     
     <li style="list-style-type:none"><h2>Fun Facts About My neighbors</h2></li>
@@ -316,42 +274,22 @@ border-radius: 20px;
     <li>Meron will not talk to people for weeks when <em>she is mad.</em></li>
     <li>Sherif yells when he is <strong>stressed</strong> specially at <em>exam week.</em></li>
 </ul>
-<div><h3>additional extra point works</h3>
+<div><h2>additional extra point works</h2>
 <ol>
     <li> Drop-Caps
         <ul class="extra-2">
             <li><p><span class="extra-1">T</span>he legends of our ancestores are hard to beleive, still hard to ignore.
             Can you pause for a moment and think some of the legendary stories you grow up hearing.</p></li>
                
-        </ul></li>
-    <li> Text Transformation, reversing text up-side down.
-    <li class="extra-3"> I love coding! </li></li>
-    
-        <li> Reversing a list, taking the above existing movie frame list html-css code
-        <ul class="movies">
-            <li class="subtitle tooltip"><u style="  text-decoration-color:red;">Some of my favorite movies<span class="tooltiptext">click the list to watch</span></u>
-                <ul class="inside-movies text descending">
-                    <li><a href = "https://www.netflix.com/search?q=gladiator&jbv=60000929">Gladiator</a></li>
-                    <li><a href = "https://www.netflix.com/browse?jbv=81513703">The Bad Guys</a></li>
-                    <li><a href = "https://www.netflix.com/title/70120612">MegaMind</a></li>
-                </ul>
-            </li>
-        </ul>
-        </li>
-        </ol>
-
-        <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <h3 class="animate-charcter"> CODING IS AWOESOME!!</h3>
-              </div>
-            </div>
-          </div>
-
-
-    <footer>
-    <div class="column-2"><pre> 
-    Tekeste Teklehaimanot 
+         </ul></li>
+     <li> Text Transformation with out the need of using javascript
+     <li class="extra-3"> I love coding! </li></li>
+     </ol>
+     </div>
+     </ol></div>
+     <footer>
+     <div class="column-2"><pre> 
+     Tekeste Teklehaimanot 
     Maharashi International University
     Department of computer science
     Tel: 545-656-5432
@@ -361,7 +299,7 @@ border-radius: 20px;
 </pre>
 </div>
     <div class=column-2>
-    <a href="https://validator.w3.org/check?url=https://tekkina.github.io/my-wap-works/ass-2/index.html" style="text-decoration:none;">
+    <a href="https://validator.w3.org/check?url=https://tekkina.github.io/my-wap-works/ass-2/here.html" style="text-decoration:none;">
        <img src="https://t3.ftcdn.net/jpg/03/56/85/48/240_F_356854808_3YAqDSXvVAchX3Cxx8ds5emPx7D2cCwW.jpg" alt= "html validator" style=width:53%></a>    
     </div>
     </footer>
