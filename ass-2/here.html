@@ -14,7 +14,9 @@
      padding:0;
      height:100%;
     }
-   
+    .center{
+     text-align:center;
+    }
 h1,h2,h3{
     display:block;
     margin-left: 30px;;
@@ -25,6 +27,10 @@ h1,h2,h3{
     border-radius: 1px;
     border: 4px solid rgb(241, 182, 6);
     }
+     .underline{ font-size:2rem;
+        text-underline-offset:0.2em;
+        }
+
     .hobby{
     background-color: darkseagreen;
     border:none;
@@ -124,7 +130,7 @@ display:inline;
 border:2px solid green;
 position: relative;
 float:left;
-width:fit-content;
+width:auto;
 padding:60px;background-color:cornflowerblue;
 margin:0;
 }
@@ -136,6 +142,7 @@ padding:10px;
 margin:0;
 vertical-align: baseline;
 } 
+
 .text h4{
 position:absolute;
 float:right;
@@ -197,14 +204,14 @@ border-radius: 20px;
 </style>
 </head>
 <body>
-    <header style= text-align:center;><a href="https://validator.w3.org/check?url=https://tekkina.github.io/my-wap-works/ass-2/here.html">
+   <div class="center" ></div><header><a href="https://validator.w3.org/check?url=https://tekkina.github.io/my-wap-works/ass-2/here.html">
         <img class="img-round" src="https://tekkina.github.io/my-wap-works/ass-2/20150305_000449%20copy.jpg"
         alt= "html validator" height ="300" width ="350"></a></header>
-  <h1 style=margin:auto;> Tekeste Teklehaimanot </h1>
+<h1>Tekeste Teklehaimanot</h1></div>
     <h2> A little about me</h2>
     <p>Hey, I am <b style= color:rgb(21,5,241);> Tekeste Teklehaimanot </b>, I am single, I have wondered a lot of countries in six continents, I am an experienced 
         Mecahnical and Marine engineer subspecialized on PLC programming and a potential future excellent software engineer. Presently, studing my Software Engineering Msc program in MIU, fairfield,Iowa,UnitedStates.</p>
-        <p style =font-size:2rem;text-underline-offset:0.2em><u>Registerd Courses</u></p>
+       <div style =font-size:2rem;text-underline-offset:0.2em> <p ><u>Registerd Courses</u></p></div>
         <ul class="ul-course"> 
             <li><a>WAP</a></li>
             <li><a>Enterprise Architecture</a></li>
@@ -218,7 +225,7 @@ border-radius: 20px;
         
        
         <ul class="hobby">
-            <li style=list-style-type:none><h2>My Hobbies</h2>
+            <li><h2>My Hobbies</h2>
         <ol>
             <li > Watching Movies
             <ul class="movies">
@@ -284,6 +291,26 @@ border-radius: 20px;
          </ul></li>
      <li> Text Transformation with out the need of using javascript
      <li class="extra-3"> I love coding! </li>
+     <li> Reversing a list, taking the above existing movie frame list html-css code
+        <ul class="movies">
+            <li class="subtitle tooltip"><u style="  text-decoration-color:red;">Some of my favorite movies<span class="tooltiptext">click the list to watch</span></u>
+                <ul class="inside-movies text descending">
+                    <li><a href = "https://www.netflix.com/search?q=gladiator&jbv=60000929">Gladiator</a></li>
+                    <li><a href = "https://www.netflix.com/browse?jbv=81513703">The Bad Guys</a></li>
+                    <li><a href = "https://www.netflix.com/title/70120612">MegaMind</a></li>
+                </ul>
+            </li>
+        </ul>
+        </li>
+        </ol>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h3 class="animate-charcter"> CODING IS AWOESOME!!</h3>
+              </div>
+            </div>
+          </div>
      </ol>
      </div>
      <footer>
