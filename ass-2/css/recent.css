@@ -165,10 +165,10 @@ margin:0;
 }
 .column-2{ position:relative;
 float:left;
-width:auto;
-padding:10px;
+width:max-content;
+padding:10px 100px 10px 100px;
 margin:0;
-vertical-align: baseline;
+vertical-align:center;
 
 } 
 
@@ -269,10 +269,13 @@ background-position: 200% center;
 }
 }
 .mail{
+border:block;
 color:yellow;
 background-color:black;
 text-decoration:none;
-padding:0 10px;
+padding-left:5px 20px 5px 20px;
+
+
 }
 footer{
     background-color: purple;
@@ -283,7 +286,7 @@ footer{
     padding-top: 10px;
     border-radius: 20px;
     }
-footer a {
+/* footer a {
     display: inline;
     margin-right: 10px;
     width: 50px;
@@ -309,5 +312,5 @@ footer a:hover {
 }
 footer a:hover strong {
     color: #912;
-    background-color: #DDD;
-}  
+    background-color: #DDD; }  
+*/
