@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link ref="stylesheet" type="css" href="https://validator.w3.org/check?url=https://tekkina.github.io/my-wap-works/ass-2/ass-2/css/recent.css">
+    
+  
+<link ref="stylesheet" type="css" href="my.css">
+</head>
 <body>
-    <div class="frame"><a href="https://validator.w3.org/check?url=https://tekkina.github.io/my-wap-works/ass-2/index.html">
+    <header style= text-align:center;><a href="https://validator.w3.org/check?url=https://tekkina.github.io/my-wap-works/ass-2/index.html">
         <img class="img-round" src="https://tekkina.github.io/my-wap-works/ass-2/20150305_000449%20copy.jpg"
-        alt= "html validator" height ="300" width ="350"></a></div>
+        alt= "html validator" height ="300" width ="350"></a></header>
   <h1 style=margin:auto;> Tekeste Teklehaimanot </h1>
     <h2> A little about me</h2>
     <p>Hey, I am <b style= color:rgb(21,5,241);> Tekeste Teklehaimanot </b>, I am single, I have wondered a lot of countries in six continents, I am an experienced 
         Mecahnical and Marine engineer subspecialized on PLC programming and a potential future excellent software engineer. Presently, studing my Software Engineering Msc program in MIU, fairfield,Iowa,UnitedStates.</p>
-        <p style =font-size:2rem;><u style="text-underline-offset:0.3em">Registerd Courses</u></p>
+        <p style =font-size:2rem;text-underline-offset:0.2em><u>Registerd Courses</u></p>
         <ul class="ul-course"> 
             <li><a>WAP</a></li>
             <li><a>Enterprise Architecture</a></li>
@@ -28,11 +31,11 @@
         
        
         <ul class="hobby">
-            <li class="decoreless"><h2>My Hobbies</h2>
+            <li style=list-style-type:none><h2>My Hobbies</h2>
         <ol>
             <li > Watching Movies
             <ul class="movies">
-                <li class="subtitle tooltip"><u style="text-underline-offset:0.2em; text-decoration-color:red">Some of my favorite movies<span class="tooltiptext">click the list to watch</span></u>
+                <li class="subtitle tooltip"><u style="  text-decoration-color:red;">Some of my favorite movies<span class="tooltiptext">click the list to watch</span></u>
                     <ul class="inside-movies text">
                         <li><a href = "https://www.netflix.com/search?q=gladiator&jbv=60000929">Gladiator</a></li>
                         <li><a href = "https://www.netflix.com/browse?jbv=81513703">The Bad Guys</a></li>
@@ -44,16 +47,17 @@
             <li>Reading fiction books
                <ul class="books"></ul>
             <ul>
-           <li> <strong>Some of my favorite books are:-</strong>
-            
+           <li style="list-style-type:none;"> <b style="font-size:20px;">Some of my favorite books are:-</b>
+            </li>
+            </ul>
                 <ul class="outside-books">
                    
                     <li>Digital Fortress, by Dan Brown.</li>
                     <li>Wind, Sand and Stars, by Antoine De Saint-Exupery.</li>
                     <li>The Crooked House, by Agatha Christy.</li>
-                </ul></li></ul>
+                </ul>
+                </li>
                 <li>Playing PingPong
-                    <ul><li>Pingpong is my best game, I enjoyed playing, I could play for hours if I get some one to play with.</li></ul>
             <ul class="pingpong"></ul>
             </li>
     </ol>
@@ -79,52 +83,12 @@
 
 <ul style=border:none;clear:both;padding-top:20px;padding-left:0;>
     
-    <li class="decoreless"><h2>Fun Facts About My neighbors</h2></li>
+    <li style="list-style-type:none"><h2>Fun Facts About My neighbors</h2></li>
     <li>Alexander Lomez: he always sings in the shower.</li>
     <li>Hasiet Mulugeta: She likes to talk with her parakeets <em>Zema </em>and <em>zeip</em></li>
     <li>Meron will not talk to people for weeks when <em>she is mad.</em></li>
     <li>Sherif yells when he is <strong>stressed</strong> specially at <em>exam week.</em></li>
 </ul>
-<div><h2>additional extra point works</h2>
-<ol>
-    <li> Drop-Caps
-        <ul class="extra-2">
-            <li><p><span class="extra-1">T</span>he legends of our ancestores are hard to beleive, still hard to ignore.
-            Can you pause for a moment and think some of the legendary stories you grow up hearing.</p></li>
-               
-        </ul></li>
-        <li>Example of Psuedo-element effect, "extra::first-line" in my case
-            <p>We are taking WAP, We are transforming ourselves while we are transforming webpages. It seems as days goes by 
-                it gets easier and easier but the fact is there is much to do, i was looking advanced webpage development and 
-                as it is amazingly captivating, it needs alot of concentration and idealisim and creative thinking.</p>
-             <p class="extra">We are taking WAP, We are transforming ourselves while we are transforming webpages. It seems as days goes by 
-                it gets easier and easier but the fact is there is much to do, i was looking advanced webpage development and 
-                as it is amazingly captivating, it needs alot of concentration and idealisim and creative thinking.</p></li>
-    <li> Text Transformation, reversing text up-side down.
-    <li class="extra-3"> I love coding! </li>
-    
-        <li> Reversing a list, taking the above existing movie frame list html-css code
-        <ul class="movies">
-            <li class="subtitle tooltip"><u style="  text-decoration-color:red;">Some of my favorite movies<span class="tooltiptext">click the list to watch</span></u>
-                <ul class="inside-movies text descending">
-                    <li><a href = "https://www.netflix.com/search?q=gladiator&jbv=60000929">Gladiator</a></li>
-                    <li><a href = "https://www.netflix.com/browse?jbv=81513703">The Bad Guys</a></li>
-                    <li><a href = "https://www.netflix.com/title/70120612">MegaMind</a></li>
-                </ul>
-            </li>
-        </ul>
-        </li>
-        <li> Animation effects.
-           <ul><li class="decoreless"> <div class="container">
-                <div class="row">
-                    <h3 class="animate-charcter"> CODING IS AWOESOME!!</h3>
-                </div>
-              </div>
-              </li>
-            </ul>
-        </li>
-        </ol>
-        </div>
     <footer>
     <div class="column-2"><pre> 
     Tekeste Teklehaimanot 
@@ -132,12 +96,13 @@
     Department of computer science
     Tel: 545-656-5432
     Adresee: 1000 North 4th street
-    <a class="mail" href ="mailto:tteklehaimanot@miu.edu"><b>tteklehaimanot@miu.edu</b></a>
+    <a href ="mailto:tteklehaimanot@miu.edu"><b style="color:yellow">tteklehaimanot@miu.edu</b>
+    </a>
 </pre>
 </div>
     <div class=column-2>
     <a href="https://validator.w3.org/check?url=https://tekkina.github.io/my-wap-works/ass-2/index.html" style="text-decoration:none;">
-       <img src="https://t3.ftcdn.net/jpg/03/56/85/48/240_F_356854808_3YAqDSXvVAchX3Cxx8ds5emPx7D2cCwW.jpg" alt= "html validator" style=width:70%;position:relative;left:1250px;></a>    
+       <img src="https://t3.ftcdn.net/jpg/03/56/85/48/240_F_356854808_3YAqDSXvVAchX3Cxx8ds5emPx7D2cCwW.jpg" alt= "html validator" style=width:53%></a>    
     </div>
     </footer>
 </body>
