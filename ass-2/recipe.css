@@ -1,0 +1,31 @@
+body{
+    background-color:white;
+    color:#404040;
+    font-size:11pt;
+    font-family:Georgia, Garamond,serif;
+}
+h2{
+    color:#A4A400;
+    background-color:#F0F0F0;
+    font-variant-caps: all-petite-caps;
+    font-family:'Lucida Sans Unicode',Helvetica, Arial, sans-serif;
+}
+header > h2{
+    font-weight:bold;
+    font-size:22pt;
+}
+tooltip{}
+tooltiptext{}
+tooltip:hover.tooltiptext{}
+pre{
+    font-family:monospace;
+}
+ol{
+    font-weight:bold;
+}
+.comment{
+    display:block;
+    background-color:#FFFFA8;
+    font-style:italic;
+    
+}
