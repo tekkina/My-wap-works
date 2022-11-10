@@ -285,31 +285,4 @@ footer{
     padding-top: 10px;
     border-radius: 20px;
     }
-/* footer a {
-    display: inline;
-    margin-right: 10px;
-    width: 50px;
-    padding: 1px;
-    font-size: 9px;
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid yellow;
-    vertical-align: middle;
-    white-space: nowrap;
-    cursor: pointer;
-}
-footer a strong {
-    font-weight: bold;
-    color: #FFF;
-    background-color: #912;
-    padding-left: 2px;
-    margin-right: 5px;
-}
-footer a:hover {
-    color: #FFF;
-    background-color: #912;
-}
-footer a:hover strong {
-    color: #912;
-    background-color: #DDD; }  
-*/
+
