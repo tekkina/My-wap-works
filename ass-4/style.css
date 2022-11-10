@@ -1,0 +1,24 @@
+.frame{
+    margin:auto;
+    width:max-content;
+    background-image:linear-gradient(
+   to right, 
+   white,
+   #F68B1D,
+   pink,
+   red,
+   blue,
+   green,
+   yellow,
+   violet,
+   #00AAC3
+   );
+   animation:slide 5s linear infinite;
+   font-weight:bold;
+   font-size:larger;
+   text-decoration:underline;
+   border-radius:20px;
+}
+   .img-round{
+    border-radius:50%;
+   }
