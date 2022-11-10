@@ -1,7 +1,6 @@
 .frame{
-    margin:auto;
-    width:max-content;
-    background-image:linear-gradient(
+   width:max-content;
+   background-image:linear-gradient(
    to right, 
    white,
    #F68B1D,
