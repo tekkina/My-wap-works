@@ -29,8 +29,9 @@ pre{
     
 } */
 body{
-    margin: 20px;
-    padding: 20px;
+    margin-left: 230px;
+    margin-right:230px;
+    padding-left: 0;
     font-size: 11pt;
     font-family:Georgia, Garamond,serif;
     line-height: 1;
@@ -38,19 +39,25 @@ body{
     background-repeat: repeat;
     background-attachment:fixed;
     color: #404040;
+    
 }
 
-h1, h3{
+ .titles h1,h2{
     color: #A4A400;
     background-color: #F0F0F0;
+    width:auto;
     text-decoration: underline;
-    text-align: center;
+    font-weight:normal;
     font-family:'Lucida Sans Unicode',Helvetica, Arial, sans-serif;
+    padding:0;
+    text-align: left;
+    padding-top:5px;
 }
 
-header{
+header.titles>h1{
     font-size: 22pt;
     text-align: center;
+    font-weight:bold;
 }
 
 .cancled_word{
@@ -58,13 +65,13 @@ header{
 }
 
 .recipe_1{
-    list-style: none;
-}
+    list-style-type:none;
+} 
 .comment{
     background-color: rgba(255, 255, 0, 0.356);
     font-style: italic;
-    margin-left: 10%;
-    margin-right: 10%;
+   margin-left:40px;
+   margin-right:40px;
 }
 
 ul{
@@ -73,7 +80,7 @@ ul{
 }
 
 #copy_text{
-    margin-left: -8em;
+    margin-left: 0;
 }
 
 pre{
