@@ -1,0 +1,84 @@
+/* body{
+    background-color:white;
+    color:#404040;
+    font-size:11pt;
+    font-family:Georgia, Garamond,serif;
+}
+h2{
+    color:#A4A400;
+    background-color:#F0F0F0;
+    text-align: center;
+    font-family:'Lucida Sans Unicode',Helvetica, Arial, sans-serif;
+}
+header > h2{
+    font-weight:bold;
+    font-size:22pt;
+}
+tooltip{}
+tooltiptext{}
+tooltip:hover.tooltiptext{} 
+pre{
+    font-family:monospace;
+}
+ul{
+    font-weight:bold;
+    text-decoration:none;
+}
+.comment{
+    display:block;
+    background-color:#FFFFA8;
+    font-style:italic;
+    
+} */
+body{
+    margin: 20px;
+    padding: 20px;
+    font-size: 11pt;
+    font-family:Georgia, Garamond,serif;
+    line-height: 1;
+    background-image: url('silverware.jpg');
+    background-repeat: repeat;
+    background-attachment:fixed;
+    color: #404040;
+}
+
+h1, h3{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-decoration: underline;
+    text-align: center;
+    font-family:'Lucida Sans Unicode',Helvetica, Arial, sans-serif;
+}
+
+header{
+    font-size: 22pt;
+    text-align: center;
+}
+
+.cancled_word{
+    text-decoration: line-through;
+}
+
+#recipe_1{
+    list-style: none;
+}
+
+.comment{
+    background-color: rgba(255, 255, 0, 0.356);
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul{
+    list-style-image: url('pie_icon.gif');
+    text-decoration: none;
+}
+
+#copy_text{
+    margin-left: -8em;
+}
+
+/* pre{
+    text-align: right;
+} */
